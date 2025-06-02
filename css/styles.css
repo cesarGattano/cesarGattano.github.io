@@ -10904,7 +10904,7 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #d7c998;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10940,12 +10940,12 @@ html {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: #d7c998;
+    background: #34626a;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #d7c998;
+    background: #34626a;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
