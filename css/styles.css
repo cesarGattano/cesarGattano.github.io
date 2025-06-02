@@ -34,20 +34,20 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-primary: #d7c998;
+  --bs-secondary: #570B17;
+  --bs-success: #e2a145;
+  --bs-info: #34626a;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-danger: #a32b3a;
+  --bs-light: #0a0a0a;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-primary-rgb: 215, 201, 152;
+  --bs-secondary-rgb: 87, 11, 23;
+  --bs-success-rgb: 226, 161, 69;
+  --bs-info-rgb: 52, 98, 106;
   --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
+  --bs-danger-rgb: 163, 43, 58;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #adadad;
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,9 +73,9 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
-  --bs-code-color: #d63384;
+  --bs-link-color: #68a4aa;
+  --bs-link-hover-color: #34626a;
+  --bs-code-color: #a32b3a;
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -2846,11 +2846,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
+  --bs-btn-bg: #34626a;
+  --bs-btn-border-color: #34626a;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-hover-bg: #34626a;
+  --bs-btn-hover-border-color: #34626a;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #15967d;
@@ -5239,7 +5239,7 @@ textarea.form-control-lg {
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #fff;
+  --bs-modal-bg: #d7c998;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0.125rem;
   --bs-modal-border-radius: 0.75rem;
@@ -10870,10 +10870,16 @@ html {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #e2a145;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #e2a145;
+}
+.divider-custom.divider-dark .divider-custom-line {
+  background-color: #570B17;
+}
+.divider-custom.divider-dark .divider-custom-icon {
+  color: #570B17;
 }
 
 .btn-xl {
@@ -11009,7 +11015,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(52, 98, 106, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
